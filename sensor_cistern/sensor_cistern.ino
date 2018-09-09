@@ -8,9 +8,9 @@ PubSubClient client(espClient);
 StaticJsonDocument<200> doc;
 
 
-const char* ssid = "Marconi-24";
-const char* password = "39636000594116218137";
-const char* mqtt_server = "192.168.178.86";
+const char* ssid = "XXX";
+const char* password = "XXX";
+const char* mqtt_server = "XXX";
 const char* configure_topic = "init/0001";
 const char* error_topic = "sensor/error";
 const char* connect_topic = "sensor/connect";
